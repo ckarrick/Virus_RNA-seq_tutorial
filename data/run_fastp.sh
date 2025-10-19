@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # For each sample
 for sample in *_1.fastq; do
   # Define the sample name from what comes before _1.fastq
