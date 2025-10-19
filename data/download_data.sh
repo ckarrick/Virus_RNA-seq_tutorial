@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # For each sample's accession number
 for sra in SRR1708168 SRR1708296; do
   # Download the SRA file
