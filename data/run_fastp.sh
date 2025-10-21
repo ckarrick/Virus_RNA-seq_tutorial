@@ -8,8 +8,8 @@ for sample in *_1.fastq; do
   sample_name=$(basename $sample _1.fastq)
   # Run FastP
   ../programs/fastp \
-    -i ${sample_name}_1.fastq \ # Forward reads input
-    -I ${sample_name}_2.fastq \ # Reverse reads input
-    -o cleaned_${sample_name}_1.fastq \ # Forward reads output
-    -O cleaned_${sample_name}_2.fastq # Reverse reads output
+    -i ${sample_name}_1.fastq \
+    -I ${sample_name}_2.fastq \
+    -o cleaned_${sample_name}_1.fastq \
+    -O cleaned_${sample_name}_2.fastq
 done
