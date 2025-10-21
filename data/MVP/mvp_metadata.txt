@@ -1,3 +1,3 @@
 Sample_number	Sample	Assembly_Path	Read_Path
-1	Phel_Control_FHL	/global/scratch/users/carlykarrick/Virus_RNA-seq_tutorial/data/Phel_Control_FHL_rnaviralspades/scaffolds.fasta /global/scratch/users/carlykarrick/Virus_RNA-seq_tutorial/data/normalized_Phel_Control_FHL_R1.fastq
-2	Phel_Treated_FHL  /global/scratch/users/carlykarrick/Virus_RNA-seq_tutorial/data/Phel_Treated_FHL_rnaviralspades/scaffolds.fasta /global/scratch/users/carlykarrick/Virus_RNA-seq_tutorial/data/normalized_Phel_Treated_FHL_R1.fastq
+1	Lime_Blue_Mixolimnion	/global/scratch/users/carlykarrick/Virus_RNA-seq_tutorial/data/Lime_Blue_Mixolimnion_rnaviralspades/scaffolds.fasta /global/scratch/users/carlykarrick/Virus_RNA-seq_tutorial/data/normalized_Lime_Blue_Mixolimnion_R1.fastq
+2	Lime_Blue_Microbial_Plate  /global/scratch/users/carlykarrick/Virus_RNA-seq_tutorial/data/Lime_Blue_Microbial_Plate_rnaviralspades/scaffolds.fasta /global/scratch/users/carlykarrick/Virus_RNA-seq_tutorial/data/normalized_Lime_Blue_Microbial_Plate_R1.fastq
