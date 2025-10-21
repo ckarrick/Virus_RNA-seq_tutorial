@@ -3,7 +3,7 @@
 # This script normalizes data for the virus RNA-Seq tutorial
 
 # For each sample
-for sample_name in Phel_Treated_FHL Phel_Control_FHL; do
+for sample_name in Lime_Blue_Mixolimnion Lime_Blue_Microbial_Plate; do
   # Run BBNorm
   ../programs/bbmap/bbnorm.sh \
     in=cleaned_${sample_name}_1.fastq \ # Forward reads input
