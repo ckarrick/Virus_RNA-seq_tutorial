@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script downloads raw RNA-Seq data for the virus RNA-Seq tutorial
+
 # For each sample's accession number
 for sra in SRR1708168 SRR1708296; do
   # Download the SRA file
