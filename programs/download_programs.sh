@@ -22,7 +22,7 @@ tar -xvf BBMap_39.09.tar.gz
 
 # Install MVP with conda
 module load anaconda3 # Load anaconda3 module
-mamba create -n mvip conda-forge -c bioconda mvip
+mamba create -n mvip -c conda-forge -c bioconda mvip
 
 # Make the MVP scripts executable
 chmod +x mvip/modules/*.py
