@@ -6,8 +6,8 @@
 for sample_name in Lime_Blue_Mixolimnion Lime_Blue_Microbial_Plate; do
   # Run BBNorm
   ../programs/bbmap/bbnorm.sh \
-    in=cleaned_${sample_name}_1.fastq \ # Forward reads input
-    in2=cleaned_${sample_name}_2.fastq \ # Reverse reads input
-    out=normalized_${sample_name}_1.fastq \ # Forward output
-    out2=normalized_${sample_name}_2.fastq # Reverse output
+    in=cleaned_${sample_name}_1.fastq \
+    in2=cleaned_${sample_name}_2.fastq \
+    out=normalized_${sample_name}_1.fastq \
+    out2=normalized_${sample_name}_2.fastq
 done
