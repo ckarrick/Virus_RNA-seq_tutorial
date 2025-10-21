@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script runs FastP to perform quality control and adapter trimming of the raw RNA-Seq data for the virus RNA-Seq tutorial
+
 # For each sample
 for sample in *_1.fastq; do
   # Define the sample name from what comes before _1.fastq
